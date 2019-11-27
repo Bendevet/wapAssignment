@@ -1,0 +1,43 @@
+body {
+    background: rgb(29, 88, 105);
+    color: whitesmoke;
+}
+
+.m_yellow {
+    color: rgb(168, 168, 18);
+}
+
+h3 {
+    color: rgb(0, 89, 255);
+}
+
+.m_red,
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.italics {
+    font-style: italic;
+}
+
+h3:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+}
+
+
+/* ol {
+    transform: rotate(180deg);
+}
+
+ol>li {
+    transform: rotate(-180deg);
+} */
