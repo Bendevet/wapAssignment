@@ -1,0 +1,125 @@
+body {
+    padding: 0px 20% 0px 20%;
+    margin: 0px;
+}
+
+h2 {
+    text-shadow: 0px 2px 3px rgb(73, 72, 72);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.div-section {
+    width: 100%;
+    height: 100%;
+    background: url('../assets/background.png');
+}
+
+.top-bg {
+    height: 50px;
+    width: 100%;
+    background: url('../assets/banner.png');
+}
+
+.div-body {
+    border: solid;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: rgb(66, 65, 65);
+    /* display: flex; */
+    /* overflow: auto; */
+    height: 1300px;
+    margin: 0px 10% 0px 10%;
+}
+
+.right-div {
+    width: 30%;
+    height: 100%;
+    background: rgb(62, 121, 62);
+    float: right;
+    font-size: 14px;
+}
+
+.left-div {
+    /* width: 100%; */
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.top-flex {
+    flex: 9;
+}
+
+ul,
+a {
+    margin: 0px;
+}
+
+.bottom-flex {
+    height: 20px;
+    background: rgb(62, 121, 62);
+    text-align: center;
+    bottom: 0px;
+    border-radius: 0px 0px 0px 15px;
+}
+
+.dl-class {
+    padding: 0px 5% 0px 5%;
+}
+
+.rotten {
+    height: 85px;
+    width: 100%;
+    background: url('../assets/rbg.png');
+}
+
+.flex-box {
+    display: flex;
+    /* justify-content: ; */
+    align-items: flex-start;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.box-con {
+    border: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgb(66, 65, 65);
+    flex: 1;
+    padding: 10px;
+    font-size: 80%;
+}
+
+.gap {
+    width: 10px;
+}
+
+.inner-right {
+    width: 47%;
+    height: 200px;
+    float: right;
+    padding: 0px 8px 0px 8px;
+}
+
+.inner-left {
+    width: 47%;
+    height: 200px;
+    padding: 0px 8px 0px 8px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.bottom-img {
+    float: right;
+    position: relative;
+    bottom: 80px;
+    width: 8%;
+    height: 80px;
+    right: 0px;
+}
